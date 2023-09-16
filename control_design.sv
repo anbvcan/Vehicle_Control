@@ -1,10 +1,10 @@
 module vehicleControl(
-  input clock,
-  input _switch,
-  input [1:0] _turnShift,
-  input [1:0] _gearShift,
-  output reg [1:0] _turnState,
-  output reg [1:0] _gearState
+  input logic clock,
+  input logic _switch,
+  input logic [1:0] _turnShift,
+  input logic [1:0] _gearShift,
+  output logic [1:0] _turnState,
+  output logic [1:0] _gearState
 );
 
   localparam _OFF = 0, _ON = 1;
