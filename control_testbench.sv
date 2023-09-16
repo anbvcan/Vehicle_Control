@@ -1,9 +1,9 @@
 module vehicleControlTB;
-  reg clock, _switch;
-  reg [1:0] _turnShift;
-  reg [1:0] _gearShift;
-  reg [1:0] _turnState;
-  reg [1:0] _gearState;
+  logic clock, _switch;
+  logic [1:0] _turnShift;
+  logic [1:0] _gearShift;
+  logic [1:0] _turnState;
+  logic [1:0] _gearState;
   
   
   vehicleControl uut(
