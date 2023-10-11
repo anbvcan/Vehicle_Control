@@ -31,7 +31,7 @@ module vehicleControl(
     begin
       if(!_switch)
         begin
-        	_gearState = _LOCK_STATE;
+        	_gearState <= _LOCK_STATE;
         end 
       else 
         begin
